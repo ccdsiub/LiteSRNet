@@ -1,0 +1,24 @@
+data_params:
+  data_dir: data
+  overlap_height_ratio: 0.0
+  overlap_width_ratio: 0.0
+  test_dataset_names:
+    - Urban100
+  train_dataset_name: DIV2K
+exp_params:
+  add_discriminator: false
+  batch_size: 64
+  device: cuda
+  epochs: 100
+  lr: 0.0001
+  num_workers: 4
+  patch_size: 48
+  scale_factor: 2
+log_params:
+  log_dir: logs
+  result_dir: results
+  save_interval: 5
+  test_model_path: "logs/run_12/best_model.pth"
+model_params:
+  depth: 16
+  width: 64
