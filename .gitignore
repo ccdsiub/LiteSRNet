@@ -1,1 +1,10 @@
-
+core
+data/
+trash/
+output/
+results/
+data/
+*/__pycache__
+.pylintrc
+logs/
+.vscode/
